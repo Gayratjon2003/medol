@@ -2,7 +2,34 @@
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}", "./public/index.html"],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        primary: "#363535",
+        secondary: "#5A5A5A",
+        lightBlue: "#00C9C9",
+        blue: "#0D4C93",
+        gray: "#ECF5F5",
+        // white: "red"
+      },
+      margin: {
+        18: "18px",
+        119: "119px"
+      },
+      padding: {
+        18: "18px",
+        49: "49px"
+      },
+      fontSize: {
+        22: "22px",
+        26: "26px",
+        50: "50px"
+      },
+      borderRadius: {
+        15: "15px",
+        25: "25px",
+        35: "35px",
+      },
+    },
   },
   plugins: [],
 };

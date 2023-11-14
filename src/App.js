@@ -1,10 +1,15 @@
-import { Home } from "./components";
+import { Route, Routes } from "react-router-dom";
+import { Home, Navbar } from "./components";
+import { routes } from "./constant";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <Home />
-      </header>
+      <div className="navbar">
+        <Navbar />
+      </div>
+      <Routes>
+        <Route path={routes.HOME} element={<Home />} />
+      </Routes>
     </div>
   );
 }

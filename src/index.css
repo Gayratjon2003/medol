@@ -4,6 +4,71 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
+  margin: 0;
   font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+}
+
+.container {
+  width: 90%;
+  max-width: 1360px;
+  margin: 0 auto;
+}
+
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 40px;
+  font-weight: 500;
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+p, span {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+.App {
+  background: url('./assets/img/blur-hospital.png');
+}
+
+.bottomInput {
+  outline: none;
+}
+
+.bottomInput::placeholder {
+  color: black;
+  font-weight: 400;
+}
+
+.bottomExtraDiv {
+  position: absolute;
+  width: 142px;
+  top: 103%;
+  left: -19px;
+}
+
+.navLiHover:hover .navHoverSpan {
+  display: block !important;
+}
+
+.btn-more-details {
+  border-radius: 35px;
+  opacity: 0.9;
+  background: linear-gradient(90deg, #0D4C93 0%, #00C9C9 100%);
+  padding: 21px 74px 21px 71px;
+}
+
+.btn-more-details:hover {
+  background: #00C9C9;
 }

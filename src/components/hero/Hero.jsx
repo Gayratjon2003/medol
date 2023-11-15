@@ -1,13 +1,8 @@
 import React from "react";
-// import slideImg from "../../assets/img/slide.png";
 import { Swiper, SwiperSlide } from "swiper/react";
-
 import { useTranslation } from "react-i18next";
-// Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
-
-// import required modules
 import { Pagination } from "swiper/modules";
 import i18next from "i18next";
 const Hero = () => {
@@ -35,7 +30,7 @@ const Hero = () => {
                           {item?.text}
                         </p>
                         <a href={item?.link} target="_blank" rel="noreferrer">
-                          <button className="mt-11 btn-more-details text-white text-2xl mb-[108px]">
+                          <button className="mt-11 btn-more-details text-white text-2xl mb-[108px] py-[21px] pr-[74px] pl-[71px] rounded-35">
                             {t("moreDetails")}
                           </button>
                         </a>

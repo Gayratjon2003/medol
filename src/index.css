@@ -63,12 +63,28 @@ p, span {
 }
 
 .btn-more-details {
-  border-radius: 35px;
   opacity: 0.9;
   background: linear-gradient(90deg, #0D4C93 0%, #00C9C9 100%);
-  padding: 21px 74px 21px 71px;
 }
 
 .btn-more-details:hover {
   background: #00C9C9;
+}
+
+.bgProductCard {
+  border-radius: 35px;
+  opacity: 0.9;
+  background: linear-gradient(180deg, #F8F8F8 0%, rgba(248, 248, 248, 0.00) 100%);
+}
+
+.services {
+  background: url("./assets/img/services-bg.png");
+  background-repeat: no-repeat;
+  height: 100%;
+  background-position: bottom;
+}
+
+.about .right {
+  border-radius: 0px 50px 50px 0px;
+  background: linear-gradient(180deg, #F5F5F5 0%, rgba(245, 245, 245, 0.00) 100%);
 }

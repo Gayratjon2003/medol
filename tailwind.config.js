@@ -13,11 +13,14 @@ module.exports = {
       },
       margin: {
         18: "18px",
+        22: "22px",
         119: "119px"
       },
       padding: {
+        15: "15px",
         18: "18px",
-        49: "49px"
+        49: "49px",
+        58: "58px"
       },
       fontSize: {
         22: "22px",
@@ -28,6 +31,7 @@ module.exports = {
         15: "15px",
         25: "25px",
         35: "35px",
+        50: "50px",
       },
     },
   },

@@ -1,6 +1,7 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
 import i18next from "i18next";
+import { Link } from "react-router-dom";
 const Services = () => {
   const { t } = useTranslation();
   return (
@@ -35,11 +36,11 @@ const Services = () => {
                   </p>
                 </div>
                 <div className="bottom -mb-[25px]">
-                  <a href={item?.link} target="_blank" rel="noreferrer">
+                  <Link href={item?.link} target="_blank" rel="noreferrer">
                     <button className="text-white text-xl font-normal rounded-35 pt-15 pr-[84px] pb-3 pl-[82px] btn-more-details">
                       {t("moreDetails")}{" "}
                     </button>
-                  </a>
+                  </Link>
                 </div>
               </div>
             ))}

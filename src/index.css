@@ -56,6 +56,7 @@ p, span {
   width: 142px;
   top: 103%;
   left: -19px;
+  z-index: 100;
 }
 
 .navLiHover:hover .navHoverSpan {
@@ -87,4 +88,31 @@ p, span {
 .about .right {
   border-radius: 0px 50px 50px 0px;
   background: linear-gradient(180deg, #F5F5F5 0%, rgba(245, 245, 245, 0.00) 100%);
+}
+
+.news-card {
+  border: 2px solid #F6F6F6;
+  opacity: 0.9;
+  background: linear-gradient(180deg, #F8F8F8 0%, rgba(255, 255, 255, 0.00) 100%);
+}
+
+.news-card:hover .news-card-title {
+  text-decoration: underline;
+  @apply text-lightBlue;
+}
+
+.news-card:hover .news-card-btn {
+  background: none;
+  @apply  !bg-lightBlue;
+}
+
+li {
+  list-style: none;
+}
+footer a {
+  font-weight: 300;
+}
+footer a:hover {
+  @apply text-lightBlue;
+  text-decoration: underline;
 }

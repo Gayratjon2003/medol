@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const ProductCard = ({ title, image, btnText, link }) => {
   return (
@@ -8,11 +9,11 @@ const ProductCard = ({ title, image, btnText, link }) => {
           <img src={image} alt={title} className="max-w-[220px] object-cover" />
         </div>
         <h2 className="text-2xl font-normal text-primary w-4/5">{title}</h2>
-        <a href={link} target="_blank" rel="noreferrer">
+        <Link href={link} target="_blank" rel="noreferrer">
           <button className="px-58 py-6 btn-more-details mt-7 text-white text-xl rounded-35">
             {btnText}
           </button>
-        </a>
+        </Link>
       </div>
     </div>
   );

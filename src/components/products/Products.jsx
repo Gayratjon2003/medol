@@ -14,8 +14,9 @@ const Products = () => {
           <div className="cards flex justify-between items-center gap-x-[60px] gap-y-[55px] flex-wrap">
             {i18next
               .t("products.cards", { returnObjects: true })
-              .map((item) => (
+              .map((item,id) => (
                 <ProductCard
+                  key={id}
                   title={item?.title}
                   image={process.env.PUBLIC_URL + item?.image_url}
                   btnText={t("viewAll")}
@@ -34,7 +35,7 @@ const Products = () => {
                   viewBox="0 0 30 30"
                   fill="none"
                 >
-                  <g clip-path="url(#clip0_502_67)">
+                  <g clipPath="url(#clip0_502_67)">
                     <path
                       d="M30 15C30 6.7285 23.2715 -2.94112e-07 15 -6.55671e-07C6.7285 -1.01723e-06 -2.94112e-07 6.72849 -6.55671e-07 15C-1.01723e-06 23.2715 6.72967 30 15 30C23.2703 30 30 23.2715 30 15ZM2.32377 15C2.32377 8.01123 8.01006 2.32377 15 2.32377C21.9899 2.32377 27.6762 8.01123 27.6762 15C27.6762 21.9899 21.9899 27.6762 15 27.6762C8.01006 27.6762 2.32377 21.9888 2.32377 15Z"
                       fill="#0D4C93"

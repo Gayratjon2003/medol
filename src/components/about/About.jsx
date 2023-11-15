@@ -1,6 +1,7 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
 import image from "../../assets/img/about-left.png";
+import { Link } from "react-router-dom";
 const About = () => {
   const { t } = useTranslation();
   return (
@@ -18,11 +19,11 @@ const About = () => {
               <p className="font-light text-primary leading-[34.5px]">
                 {t("about.desc")}
               </p>
-              <a href={t("about.link")} target="_blank" rel="noreferrer">
+              <Link href={t("about.link")} target="_blank" rel="noreferrer">
                 <button className="btn-more-details text-white my-8 pt-[15px] pr-[60px] pb-3 pl-[58px] rounded-35">
                   {t("about.btn")}{" "}
                 </button>
-              </a>
+              </Link>
             </div>
           </div>
         </div>

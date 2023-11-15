@@ -1,5 +1,5 @@
 import { Route, Routes } from "react-router-dom";
-import { Home, Navbar } from "./components";
+import { Home, Navbar, Footer } from "./components";
 import { routes } from "./constant";
 function App() {
   return (
@@ -10,6 +10,7 @@ function App() {
       <Routes>
         <Route path={routes.HOME} element={<Home />} />
       </Routes>
+      <Footer />
     </div>
   );
 }

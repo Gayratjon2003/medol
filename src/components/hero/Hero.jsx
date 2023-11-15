@@ -1,10 +1,11 @@
 import React from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
 import { useTranslation } from "react-i18next";
+import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import { Pagination } from "swiper/modules";
 import i18next from "i18next";
+import { Link } from "react-router-dom";
 const Hero = () => {
   const { t } = useTranslation();
   return (
@@ -29,11 +30,11 @@ const Hero = () => {
                         <p className="text-primary text-2xl mr-[65px]">
                           {item?.text}
                         </p>
-                        <a href={item?.link} target="_blank" rel="noreferrer">
+                        <Link href={item?.link} target="_blank" rel="noreferrer">
                           <button className="mt-11 btn-more-details text-white text-2xl mb-[108px] py-[21px] pr-[74px] pl-[71px] rounded-35">
                             {t("moreDetails")}
                           </button>
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <div className="right w-1/2">

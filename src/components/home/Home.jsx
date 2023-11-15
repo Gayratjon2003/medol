@@ -1,6 +1,6 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
-import { About, Hero, Products, Services } from "../index";
+import { About, Hero, News, Partners, Products, Services } from "../index";
 const Home = () => {
   const { t } = useTranslation();
   return (
@@ -9,6 +9,8 @@ const Home = () => {
         <Products />
         <Services />
         <About />
+        <News />
+        <Partners />
     </div>
   );
 };

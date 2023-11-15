@@ -135,6 +135,184 @@
     "btn": "Узнать больше",
     "link": "https://www.gayratjon.uz"
   },
+  "news": {
+    "title": "НОВОСТИ",
+    "viewAllNews": "Посмотреть все новости",
+    "viewAllNewsLink": "https://www.gayratjon.uz",
+    "subscribeToNews": "Подписаться на новости",
+    "subscribeToNewsLink": "https://www.gayratjon.uz",
+    "cards": [
+      {
+        "id": 1,
+        "image_url": "/img/news.png",
+        "title": "Mастер-класс в исполнении Галлямова Эдуарда Абдулхаевича",
+        "date": "26.07.2021",
+        "link": "https://www.gayratjon.uz",
+        "desc": "С 19 по 21 апреля в АО «РСНПМЦУ» (Республиканский Специализированный Научно-Практический Медицинский Центр Урологии) при поддержке компаний Ethicon Endo Surgery (Johnson&Johnson) и ИП ООО «Medical Online Services» был проведен мастер-класс в исполнении"
+      },
+      {
+        "id": 2,
+        "image_url": "/img/news.png",
+        "title": "Mастер-класс в исполнении Галлямова Эдуарда Абдулхаевича",
+        "date": "26.07.2021",
+        "link": "https://www.gayratjon.uz",
+        "desc": "С 19 по 21 апреля в АО «РСНПМЦУ» (Республиканский Специализированный Научно-Практический Медицинский Центр Урологии) при поддержке компаний Ethicon Endo Surgery (Johnson&Johnson) и ИП ООО «Medical Online Services» был проведен мастер-класс в исполнении"
+      },
+      {
+        "id": 3,
+        "image_url": "/img/news.png",
+        "title": "Mастер-класс в исполнении Галлямова Эдуарда Абдулхаевича",
+        "date": "26.07.2021",
+        "link": "https://www.gayratjon.uz",
+        "desc": "С 19 по 21 апреля в АО «РСНПМЦУ» (Республиканский Специализированный Научно-Практический Медицинский Центр Урологии) при поддержке компаний Ethicon Endo Surgery (Johnson&Johnson) и ИП ООО «Medical Online Services» был проведен мастер-класс в исполнении"
+      },
+      {
+        "id": 4,
+        "image_url": "/img/news.png",
+        "title": "Mастер-класс в исполнении Галлямова Эдуарда Абдулхаевича",
+        "date": "26.07.2021",
+        "link": "https://www.gayratjon.uz",
+        "desc": "С 19 по 21 апреля в АО «РСНПМЦУ» (Республиканский Специализированный Научно-Практический Медицинский Центр Урологии) при поддержке компаний Ethicon Endo Surgery (Johnson&Johnson) и ИП ООО «Medical Online Services» был проведен мастер-класс в исполнении"
+      },
+      {
+        "id": 5,
+        "image_url": "/img/news.png",
+        "title": "Mастер-класс в исполнении Галлямова Эдуарда Абдулхаевича",
+        "date": "26.07.2021",
+        "link": "https://www.gayratjon.uz",
+        "desc": "С 19 по 21 апреля в АО «РСНПМЦУ» (Республиканский Специализированный Научно-Практический Медицинский Центр Урологии) при поддержке компаний Ethicon Endo Surgery (Johnson&Johnson) и ИП ООО «Medical Online Services» был проведен мастер-класс в исполнении"
+      }
+    ]
+  },
+  "partners": {
+    "title": "ПАРТНЕРЫ",
+    "cards": [
+      {
+        "id": 1,
+        "image_url": "/img/partner1.png",
+        "link": "https://www.gayratjon.uz"
+      },
+      {
+        "id": 2,
+        "image_url": "/img/partner2.png",
+        "link": "https://www.gayratjon.uz"
+      },
+      {
+        "id": 3,
+        "image_url": "/img/partner3.png",
+        "link": "https://www.gayratjon.uz"
+      },
+      {
+        "id": 4,
+        "image_url": "/img/partner4.png",
+        "link": "https://www.gayratjon.uz"
+      },
+      {
+        "id": 5,
+        "image_url": "/img/partner5.png",
+        "link": "https://www.gayratjon.uz"
+      },
+      {
+        "id": 6,
+        "image_url": "/img/partner6.png",
+        "link": "https://www.gayratjon.uz"
+      },
+      {
+        "id": 7,
+        "image_url": "/img/partner7.png",
+        "link": "https://www.gayratjon.uz"
+      },
+      {
+        "id": 8,
+        "image_url": "/img/partner8.png",
+        "link": "https://www.gayratjon.uz"
+      }
+    ]
+  },
+  "footer": {
+    "contact": "Контакты",
+    "address": "г.Ташкент, Чиланзар 10 квартал, дом 3/1",
+    "submitApp": "Оставить заявку",
+    "email": "info@medol.uz",
+    "desc": "Наша цель – построить прозрачный, долгосрочный бизнес, приносить огромную пользу населению, путем решения глобальных вопросов. Внедряя инновационные технологии на рынок Узбекистана.",
+    "medical": "© 2021 ООО «Medical Online Services»",
+    "domain": "Сайт разработан компанией www",
+    "about": {
+      "title": "О компании",
+      "lists": [
+        {
+          "name": "История",
+          "link": "https://www.gayratjon.uz"
+        },
+        {
+          "name": "Партнеры",
+          "link": "https://www.gayratjon.uz"
+        },
+        {
+          "name": "Вакансии",
+          "link": "https://www.gayratjon.uz"
+        }
+      ]
+    },
+    "products": {
+      "title": "Продукция",
+      "lists": [
+        {
+          "name": "Эндоваскулярная хирургия",
+          "link": "https://www.gayratjon.uz"
+        },
+        {
+          "name": "Аритмология",
+          "link": "https://www.gayratjon.uz"
+        },
+        {
+          "name": "Кардиохирургия",
+          "link": "https://www.gayratjon.uz"
+        },
+        {
+          "name": "Лабораторная диагностика",
+          "link": "https://www.gayratjon.uz"
+        },
+        {
+          "name": "Хирургия",
+          "link": "https://www.gayratjon.uz"
+        },
+        {
+          "name": "Эндоурология ",
+          "link": "https://www.gayratjon.uz"
+        },
+        {
+          "name": "Нейрохирургия",
+          "link": "https://www.gayratjon.uz"
+        },
+        {
+          "name": "Анестезиология и реанимация",
+          "link": "https://www.gayratjon.uz"
+        },
+        {
+          "name": "Диабет",
+          "link": "https://www.gayratjon.uz"
+        }
+      ]
+    },
+    "services": {
+      "title": "Услуги",
+      "lists": [
+        {
+          "name": "Сервис",
+          "link": "https://www.gayratjon.uz"
+        },
+        {
+          "name": "Регистрации",
+          "link": "https://www.gayratjon.uz"
+        },
+        {
+          "name": "Услуги логистики",
+          "link": "https://www.gayratjon.uz"
+        }
+      ]
+    }
+  },
   "moreDetails": "Подробнее",
   "viewAll": "Посмотреть все"
 }

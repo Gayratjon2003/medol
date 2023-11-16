@@ -9,3 +9,4 @@ export { default as News } from "./news/News";
 export { default as NewsCard } from "./news/NewsCard";
 export { default as Partners } from "./partners/Partners";
 export { default as Footer } from "./footer/Footer";
+export { default as Modal } from "./modal/Modal";

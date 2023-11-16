@@ -116,3 +116,28 @@ footer a:hover {
   @apply text-lightBlue;
   text-decoration: underline;
 }
+.modal {
+  background: rgba(0, 0, 0, 0.50);
+  /* background:  red !important; */
+  /* width: 100%; */
+  height: 100vh;
+}
+
+input, textarea {
+  outline: none;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.myTextarea {
+  resize: none;
+}

@@ -4,7 +4,7 @@ import logo from "../../assets/img/logo_1.png";
 import i18next from "i18next";
 import { Link } from "react-router-dom";
 import { routes } from "../../constant";
-const Footer = () => {
+const Footer = ({openModal}) => {
   const { t } = useTranslation();
   return (
     <footer>
@@ -132,7 +132,9 @@ const Footer = () => {
                       </span>
                     </div>
                   </div>
-                  <button className="btn-more-details h-[50px] px-[30px] whitespace-nowrap rounded-35 text-white font-normal">
+                  <button
+                  onClick={openModal}
+                  className="btn-more-details h-[50px] px-[30px] whitespace-nowrap rounded-35 text-white font-normal">
                     {t("footer.submitApp")}
                   </button>
                 </div>

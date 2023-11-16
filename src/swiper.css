@@ -4,6 +4,7 @@
 
 .swiper-wrapper {
   height: 740px !important;
+    @apply -sm:!h-[680px];
 }
 
 .swiper-slide {
@@ -36,9 +37,11 @@
 .news-swipper {
   position: relative;
 }
+
 .news-swipper .swiper-wrapper{
   height: 800px !important;
 }
+
 .news-swipper .swiper-button-next {
   position: absolute;
   cursor: pointer;

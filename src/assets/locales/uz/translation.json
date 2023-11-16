@@ -1,3 +1,327 @@
 {
-  "greeting": "Salom!"
+  "greeting": "Привет!",
+  "navData": {
+    "data": [
+      {
+        "title": "DO‘KON",
+        "path": "/store"
+      },
+      {
+        "title": "Kompaniya haqida",
+        "path": "/"
+      },
+      {
+        "title": "MAHSULOTLAR",
+        "path": "/products"
+      },
+      {
+        "title": "XIZMATLAR",
+        "path": "/services"
+      },
+      {
+        "title": "YANGILIKLAR",
+        "path": "/news"
+      },
+      {
+        "title": "QAYTA ALOQA",
+        "path": "/feedback"
+      }
+    ]
+  },
+  "hero": {
+    "data": [
+      {
+        "id": 1,
+        "title": "Анализатор ABL800 FLEX",
+        "text": "Ориентированный на среднюю или высокую производительность тестов, анализатор ABL800 FLEX измеряет полный набор параметров, включая pH, газы крови, электролиты, метаболиты и показатели оксиметрии",
+        "image_url": "/img/slide.png",
+        "link": "https://www.gayratjon.uz"
+      },
+      {
+        "id": 2,
+        "title": "Аппарат ИК-лазерный МАКДЭЛ-09.1",
+        "text": "Ориентированный на среднюю или высокую производительность тестов, анализатор ABL800 FLEX измеряет полный набор параметров, включая pH, газы крови, электролиты, метаболиты и показатели оксиметрии",
+        "image_url": "/img/slide2.png",
+        "link": "https://www.gayratjon.uz"
+      },
+      {
+        "id": 3,
+        "title": "Глюкометр для измерения глюкозы",
+        "text": "Ориентированный на среднюю или высокую производительность тестов, анализатор ABL800 FLEX измеряет полный набор параметров, включая pH, газы крови, электролиты, метаболиты и показатели оксиметрии",
+        "image_url": "/img/slide3.png",
+        "link": "https://www.gayratjon.uz"
+      },
+      {
+        "id": 4,
+        "title": "Система для аутогемотрансфузии",
+        "text": "Ориентированный на среднюю или высокую производительность тестов, анализатор ABL800 FLEX измеряет полный набор параметров, включая pH, газы крови, электролиты, метаболиты и показатели оксиметрии",
+        "image_url": "/img/slide4.png",
+        "link": "https://www.gayratjon.uz"
+      }
+    ]
+  },
+  "products": {
+    "title": "ПРОДУКЦИЯ",
+    "goToProduct": "Перейти в каталог нашей продукции",
+    "goToProductLink": "/products",
+    "cards": [
+      {
+        "id": 1,
+        "title": "Эндоваскулярная хирургия",
+        "image_url": "/img/product1.png",
+        "url": "https://www.gayratjon.uz/"
+      },
+      {
+        "id": 2,
+        "title": "Лабораторная диагностика",
+        "image_url": "/img/product2.png",
+        "url": "https://www.gayratjon.uz/"
+      },
+      {
+        "id": 3,
+        "title": "Кардиохирургия",
+        "image_url": "/img/product3.png",
+        "url": "https://www.gayratjon.uz/"
+      },
+      {
+        "id": 4,
+        "title": "ДИАБЕТ",
+        "image_url": "/img/product4.png",
+        "url": "https://www.gayratjon.uz/"
+      },
+      {
+        "id": 5,
+        "title": "ЭНДОУРОЛОГИЯ",
+        "image_url": "/img/product5.png",
+        "url": "https://www.gayratjon.uz/"
+      },
+      {
+        "id": 6,
+        "title": "АРИТМОЛОГИЯ",
+        "image_url": "/img/product6.png",
+        "url": "https://www.gayratjon.uz/"
+      }
+    ]
+  },
+  "services": {
+    "title": "УСЛУГИ",
+    "cards": [
+      {
+        "id": 1,
+        "title": "СЕРВИС ОБОРУДОВАНИЯ",
+        "image_url": "/img/service1.png",
+        "link": "https://www.gayratjon.uz",
+        "desc": "Компания предоставляет сервисное обслуживание по всем предоставляемым продуктам. У наших инженеров имеется опыт и сертификаты фирм производителей,"
+      },
+      {
+        "id": 2,
+        "title": "РЕГИСТРАЦИИ",
+        "image_url": "/img/service2.png",
+        "link": "https://www.gayratjon.uz",
+        "desc": "Обеспечение получения разрешительных документов, регистрационного удостоверения на изделия медицинского назначения Подготовка объектов к проведению"
+      },
+      {
+        "id": 3,
+        "title": "УСЛУГИ ЛОГИСТИКИ",
+        "image_url": "/img/service3.png",
+        "link": "https://www.gayratjon.uz",
+        "desc": "Компания предоставляет сервисное обслуживание по всем предоставляемым продуктам. У наших инженеров имеется опыт и сертификаты фирм производителей"
+      }
+    ]
+  },
+  "about": {
+    "title": "О КОМПАНИИ",
+    "desc": "Группа компаний MEDOL создавалась высококвалифицированными специалистами в сфере медицины, инженерии и экономики, за плечами которых значительный опыт на рынке высоких медицинских технологий, которая имеет свои представительства в разных уголках Земли. В 2011 году MEDOL зарегистрировал в Узбекистане ИП ООО “Medical Online Services“. Цель компании построить прозрачный долгосрочный бизнес, принести пользу обществу путем развития и внедрения передовых технологий в систему здравоохранения Республики Узбекистан.",
+    "btn": "Узнать больше",
+    "link": "https://www.gayratjon.uz"
+  },
+  "news": {
+    "title": "НОВОСТИ",
+    "viewAllNews": "Посмотреть все новости",
+    "viewAllNewsLink": "https://www.gayratjon.uz",
+    "subscribeToNews": "Подписаться на новости",
+    "subscribeToNewsLink": "https://www.gayratjon.uz",
+    "cards": [
+      {
+        "id": 1,
+        "image_url": "/img/news.png",
+        "title": "Mастер-класс в исполнении Галлямова Эдуарда Абдулхаевича",
+        "date": "26.07.2021",
+        "link": "https://www.gayratjon.uz",
+        "desc": "С 19 по 21 апреля в АО «РСНПМЦУ» (Республиканский Специализированный Научно-Практический Медицинский Центр Урологии) при поддержке компаний Ethicon Endo Surgery (Johnson&Johnson) и ИП ООО «Medical Online Services» был проведен мастер-класс в исполнении"
+      },
+      {
+        "id": 2,
+        "image_url": "/img/news.png",
+        "title": "Mастер-класс в исполнении Галлямова Эдуарда Абдулхаевича",
+        "date": "26.07.2021",
+        "link": "https://www.gayratjon.uz",
+        "desc": "С 19 по 21 апреля в АО «РСНПМЦУ» (Республиканский Специализированный Научно-Практический Медицинский Центр Урологии) при поддержке компаний Ethicon Endo Surgery (Johnson&Johnson) и ИП ООО «Medical Online Services» был проведен мастер-класс в исполнении"
+      },
+      {
+        "id": 3,
+        "image_url": "/img/news.png",
+        "title": "Mастер-класс в исполнении Галлямова Эдуарда Абдулхаевича",
+        "date": "26.07.2021",
+        "link": "https://www.gayratjon.uz",
+        "desc": "С 19 по 21 апреля в АО «РСНПМЦУ» (Республиканский Специализированный Научно-Практический Медицинский Центр Урологии) при поддержке компаний Ethicon Endo Surgery (Johnson&Johnson) и ИП ООО «Medical Online Services» был проведен мастер-класс в исполнении"
+      },
+      {
+        "id": 4,
+        "image_url": "/img/news.png",
+        "title": "Mастер-класс в исполнении Галлямова Эдуарда Абдулхаевича",
+        "date": "26.07.2021",
+        "link": "https://www.gayratjon.uz",
+        "desc": "С 19 по 21 апреля в АО «РСНПМЦУ» (Республиканский Специализированный Научно-Практический Медицинский Центр Урологии) при поддержке компаний Ethicon Endo Surgery (Johnson&Johnson) и ИП ООО «Medical Online Services» был проведен мастер-класс в исполнении"
+      },
+      {
+        "id": 5,
+        "image_url": "/img/news.png",
+        "title": "Mастер-класс в исполнении Галлямова Эдуарда Абдулхаевича",
+        "date": "26.07.2021",
+        "link": "https://www.gayratjon.uz",
+        "desc": "С 19 по 21 апреля в АО «РСНПМЦУ» (Республиканский Специализированный Научно-Практический Медицинский Центр Урологии) при поддержке компаний Ethicon Endo Surgery (Johnson&Johnson) и ИП ООО «Medical Online Services» был проведен мастер-класс в исполнении"
+      }
+    ]
+  },
+  "partners": {
+    "title": "ПАРТНЕРЫ",
+    "cards": [
+      {
+        "id": 1,
+        "image_url": "/img/partner1.png",
+        "link": "https://www.gayratjon.uz"
+      },
+      {
+        "id": 2,
+        "image_url": "/img/partner2.png",
+        "link": "https://www.gayratjon.uz"
+      },
+      {
+        "id": 3,
+        "image_url": "/img/partner3.png",
+        "link": "https://www.gayratjon.uz"
+      },
+      {
+        "id": 4,
+        "image_url": "/img/partner4.png",
+        "link": "https://www.gayratjon.uz"
+      },
+      {
+        "id": 5,
+        "image_url": "/img/partner5.png",
+        "link": "https://www.gayratjon.uz"
+      },
+      {
+        "id": 6,
+        "image_url": "/img/partner6.png",
+        "link": "https://www.gayratjon.uz"
+      },
+      {
+        "id": 7,
+        "image_url": "/img/partner7.png",
+        "link": "https://www.gayratjon.uz"
+      },
+      {
+        "id": 8,
+        "image_url": "/img/partner8.png",
+        "link": "https://www.gayratjon.uz"
+      }
+    ]
+  },
+  "footer": {
+    "contact": "Контакты",
+    "address": "г.Ташкент, Чиланзар 10 квартал, дом 3/1",
+    "submitApp": "Оставить заявку",
+    "email": "info@medol.uz",
+    "desc": "Наша цель – построить прозрачный, долгосрочный бизнес, приносить огромную пользу населению, путем решения глобальных вопросов. Внедряя инновационные технологии на рынок Узбекистана.",
+    "medical": "© 2021 ООО «Medical Online Services»",
+    "domain": "Сайт разработан компанией www",
+    "about": {
+      "title": "О компании",
+      "lists": [
+        {
+          "name": "История",
+          "link": "https://www.gayratjon.uz"
+        },
+        {
+          "name": "Партнеры",
+          "link": "https://www.gayratjon.uz"
+        },
+        {
+          "name": "Вакансии",
+          "link": "https://www.gayratjon.uz"
+        }
+      ]
+    },
+    "products": {
+      "title": "Продукция",
+      "lists": [
+        {
+          "name": "Эндоваскулярная хирургия",
+          "link": "https://www.gayratjon.uz"
+        },
+        {
+          "name": "Аритмология",
+          "link": "https://www.gayratjon.uz"
+        },
+        {
+          "name": "Кардиохирургия",
+          "link": "https://www.gayratjon.uz"
+        },
+        {
+          "name": "Лабораторная диагностика",
+          "link": "https://www.gayratjon.uz"
+        },
+        {
+          "name": "Хирургия",
+          "link": "https://www.gayratjon.uz"
+        },
+        {
+          "name": "Эндоурология ",
+          "link": "https://www.gayratjon.uz"
+        },
+        {
+          "name": "Нейрохирургия",
+          "link": "https://www.gayratjon.uz"
+        },
+        {
+          "name": "Анестезиология и реанимация",
+          "link": "https://www.gayratjon.uz"
+        },
+        {
+          "name": "Диабет",
+          "link": "https://www.gayratjon.uz"
+        }
+      ]
+    },
+    "services": {
+      "title": "Услуги",
+      "lists": [
+        {
+          "name": "Сервис",
+          "link": "https://www.gayratjon.uz"
+        },
+        {
+          "name": "Регистрации",
+          "link": "https://www.gayratjon.uz"
+        },
+        {
+          "name": "Услуги логистики",
+          "link": "https://www.gayratjon.uz"
+        }
+      ]
+    }
+  },
+  "modal": {
+    "title": "Оставьте заявку",
+    "name": "ФИО",
+    "tel": "Номер телефона",
+    "theme": "Тема обращения",
+    "message": "Сообщение",
+    "agree": "Отправляя заявку Вы соглашаетесь с политикой конфиденциальности",
+    "send": "Отправить"
+  },
+  "moreDetails": "Подробнее",
+  "viewAll": "Посмотреть все"
 }

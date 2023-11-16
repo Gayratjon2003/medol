@@ -3,6 +3,23 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}", "./public/index.html"],
   theme: {
     extend: {
+      screens: {
+        "-2xl": {
+          max: "1535px",
+        },
+        "-xl": {
+          max: "1200px",
+        },
+        "-lg": {
+          max: "1023px",
+        },
+        "-md": {
+          max: "768px",
+        },
+        "-sm": {
+          max: "500px",
+        },
+      },
       colors: {
         primary: "#363535",
         secondary: "#5A5A5A",
@@ -14,18 +31,18 @@ module.exports = {
       margin: {
         18: "18px",
         22: "22px",
-        119: "119px"
+        119: "119px",
       },
       padding: {
         15: "15px",
         18: "18px",
         49: "49px",
-        58: "58px"
+        58: "58px",
       },
       fontSize: {
         22: "22px",
         26: "26px",
-        50: "50px"
+        50: "50px",
       },
       borderRadius: {
         4: "4px",

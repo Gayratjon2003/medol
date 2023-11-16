@@ -11,8 +11,8 @@ const Footer = ({openModal}) => {
       <div className="container">
         <div className="box pt-[55px]">
           <div className="flex justify-between">
-            <div className="left flex w-1/2 flex-col mr-[62px]">
-              <div className="top flex">
+            <div className="left flex w-1/2 flex-col mr-[62px] -xl:w-full -xl:mr-0">
+              <div className="top flex -xl:justify-between">
                 <h2 className="text-[#595959] text-[26px] mr-10">
                   {t("footer.contact")}{" "}
                 </h2>
@@ -121,7 +121,7 @@ const Footer = ({openModal}) => {
                     </span>
                     <div className="flex flex-col text-[#5A5A5A] ">
                       <span>
-                        <a href="tel:+998712766253" className="font-normal">
+                        <a href="tel:+998712766253" className="font-normal whitespace-nowrap">
                           +998 71 276-62-53
                         </a>
                       </span>
@@ -148,7 +148,7 @@ const Footer = ({openModal}) => {
                 </p>
               </div>
             </div>
-            <div className="right w-1/2 flex justify-between text-[#595959]">
+            <div className="right w-1/2 flex justify-between text-[#595959] -xl:hidden">
               <div>
                 <h2>{t("footer.about.title")}</h2>
                 {i18next
@@ -181,7 +181,7 @@ const Footer = ({openModal}) => {
               </div>
             </div>
           </div>
-          <div className="flex justify-between w-full text-[#353535] text-lg mt-[50px] mb-7">
+          <div className="flex justify-between w-full text-[#353535] text-lg mt-[50px] pb-7">
             <div className="w-1/2 flex items-center justify-start">
               <p>{t("footer.medical")} </p>
             </div>

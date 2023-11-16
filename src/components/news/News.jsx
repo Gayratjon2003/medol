@@ -18,7 +18,7 @@ const News = () => {
               {t("news.title")}{" "}
             </h1>
           </div>
-          <div className="center flex items-center justify-between">
+          <div className="center flex items-center justify-between -md:hidden">
             <Swiper
               slidesPerView={3}
               spaceBetween={83}
@@ -44,7 +44,33 @@ const News = () => {
                 ))}
             </Swiper>
           </div>
-          <div className="bottom pt-[69px] flex justify-center items-center text-blue text-2xl pb-[105px]">
+          <div className="md:hidden block relative">
+          <Swiper
+              slidesPerView={2}
+              spaceBetween={28}
+              loop={true}
+              modules={[ Navigation]}
+              navigation={true}
+              initialSlide={2}
+              className="news-swipper-tablet !w-[92%]"
+            >
+              {i18next
+                .t("news.cards", { returnObjects: true })
+                .map((item, id) => (
+                  <SwiperSlide key={item.id}>
+                    <NewsCard
+                      key={id}
+                      title={item?.title}
+                      image_url={item?.image_url}
+                      desc={item?.desc}
+                      link={item?.link}
+                      btnText={t("moreDetails")}
+                    />
+                  </SwiperSlide>
+                ))}
+            </Swiper>
+          </div>
+          <div className="bottom pt-[69px] flex justify-center items-center text-blue text-2xl pb-[105px] -md:hidden">
             <a
               href={t("news.viewAllNewsLink")}
               target="_blank"

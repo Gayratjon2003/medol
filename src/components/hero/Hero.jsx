@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 const Hero = () => {
   const { t } = useTranslation();
   return (
-    <div className="hero mt-119 bg-transparent">
+    <div className="hero mt-119 bg-transparent -sm:mt-[53px]">
       <div className="container">
         <div className="box">
           <>
@@ -22,22 +22,22 @@ const Hero = () => {
               {i18next.t("hero.data", { returnObjects: true }).map((item) => (
                 <SwiperSlide key={item.id}>
                   <div className="slide flex">
-                    <div className="left w-1/2">
+                    <div className="left w-1/2 -xl:w-full">
                       <div className="flex flex-col justify-between items-start">
-                        <h1 className="mb-8 text-blue text-50 w-4/5 ">
+                        <h1 className="mb-8 text-blue text-50 w-4/5 -sm:text-[32px] -sm:mb-[22px]">
                           {item?.title}
                         </h1>
-                        <p className="text-primary text-2xl mr-[65px]">
+                        <p className="text-primary text-2xl mr-[65px] -sm:text-[20px] -sm:mr-0">
                           {item?.text}
                         </p>
                         <Link href={item?.link} target="_blank" rel="noreferrer">
-                          <button className="mt-11 btn-more-details text-white text-2xl mb-[108px] py-[21px] pr-[74px] pl-[71px] rounded-35">
+                          <button className="mt-11 btn-more-details text-white text-2xl mb-[108px] py-[21px] pr-[74px] pl-[71px] rounded-35 -sm:py-[18px] -sm:pr-[119px] -sm:pl-[112px] -sm:text-[20px] -sm:mt-[37px] -sm:mb-[30px]">
                             {t("moreDetails")}
                           </button>
                         </Link>
                       </div>
                     </div>
-                    <div className="right w-1/2">
+                    <div className="right w-1/2 -xl:hidden">
                       <img
                         src={process.env.PUBLIC_URL + item?.image_url}
                         alt={item?.title}

@@ -10,8 +10,8 @@ const Products = () => {
     <section className="products bg-white">
       <div className="container">
         <div className="box">
-          <h1 className="text-blue text-center mb-[60px]"> {t("products.title")} </h1>
-          <div className="cards flex justify-between items-center gap-x-[60px] gap-y-[55px] flex-wrap">
+          <h1 className="text-blue text-center mb-[60px] -md:pt-10"> {t("products.title")} </h1>
+          <div className="cards flex justify-between items-center gap-x-[60px] flex-wrap gap-y-[55px] -sm:flex-col -sm:!w-full">
             {i18next
               .t("products.cards", { returnObjects: true })
               .map((item,id) => (
@@ -24,7 +24,7 @@ const Products = () => {
                 />
               ))}
           </div>
-          <div className="w-full flex items-center justify-center mt-20">
+          <div className="w-full flex items-center justify-center mt-20 -sm:w-[80%]">
             <Link to={t("products.goToProductLink")} className="flex items-center justify-center text-blue text-2xl font-normal">
               {t("products.goToProduct")}
               <span className="ml-[6px]">

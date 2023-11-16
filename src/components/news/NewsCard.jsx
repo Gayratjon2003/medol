@@ -7,7 +7,7 @@ const NewsCard = ({ image_url, title, desc, link, btnText }) => {
       <Link href={link} target="_blank" rel="noreferrer">
         <div className="news-card card flex flex-col rounded-35 max-w-[382px] items-center text-center">
           <div
-           className="top max-w-[240px] h-[251px] flex items-center justify-center rounded-50 overflow-hidden -mt-[35%] -md:w-[280px]">
+           className="top max-w-[340px] h-[251px] flex items-center justify-center rounded-50 overflow-hidden -mt-[35%] -md:w-[280px]">
             <img
               src={image_url}
               alt=""
